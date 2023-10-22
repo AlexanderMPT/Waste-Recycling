@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0px;
+    
+}
+
+div{
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background: #faf4e6;
+}
+
+
+/* Делаю титульную секцию */
+
+.title-section {
+    padding: 50px 70px;
+    overflow: hidden;
+}
+
+/* .title-section::after {
+    content: url(../images/Texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    margin-left: 3px;
+    top: 0;
+    left: 0;
+} */
+
+.fon-body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container {}
+
+.title-section_nav {
+    display: flex;
+    justify-content: end;
+    max-width: 1241px;
+    position: relative;
+}
+
+.title-section_nav::after {
+    content: '';
+    width: 340px;
+    height: 1.5px;
+    position: absolute;
+    background: #8b9b34;
+    top: 42px;
+    right: 23px;
+}
+
+.title-section_nav::before {
+    content: url(../images/Shape_1.svg);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -19px;
+    right: -258px;
+}
+
+.title-section_nav_links {
+    margin-right: 20px;
+    color: #8b9b34;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+    position: relative;
+    z-index: 2;
+}
+
+.title-section_nav_links_content {}
+
+.title-section_nav_links_content-text {
+    background-color: #bdd93200;
+    transition: ease-in 0.6s;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.title-section_nav_links_content-text:hover {
+    background-color: #bdd932;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.title-section_inner {
+    padding-top: 50px;
+}
+
+.title-section_inner_title {
+    text-transform: uppercase;
+    color: #8b9b34;
+    font-size: 130px;
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 143px;
+
+}
+
+.title-section_inner_title span {
+    color: #ffffff00;
+    -webkit-text-stroke: 2px #8b9b34;
+    /* префикс, который создает обводку для текста (толщина, цвет) */
+}
+
+.title-section_inner-box {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.title-section_inner-box-subtitle {
+    color: #8b9b34;
+    font-size: 54px;
+    font-family: 'Fjalla One', sans-serif;
+    transform: rotate(-90deg);
+}
+
+.title-section_inner-box-text {
+    color: #787774;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 448px;
+    position: relative;
+}
+
+.title-section_inner-box-text::after {
+    content: url(../images/Группа\ 2.png);
+    width: 40px;
+    height: 200px;
+    position: absolute;
+    right: -660px;
+    top: -145px;
+}
+
+.learn_more {
+    border: none;
+    background: none;
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.learn_more-link {
+    background-color: #82922f;
+    padding: 8px 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    transition: ease-in-out 0.6s;
+}
+
+.learn_more-link:hover {
+    background-color: #a4bb2f;
+    padding: 8px 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.learn_more-link-content {}
+
+.title-section-cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-section-cont-items {}
+
+.waste_image {
+    margin-top: 85px;
+    margin-left: -264px;
+    height: 591px;
+}
+
+/* Делаю вторую секцию */
+
+.about_us {
+    background: #7f8e2b;
+    padding: 150px 100px;
+    overflow: hidden;
+}
+
+.container {}
+
+.about_us-inner {
+    text-align: center;
+}
+
+.about_us-inner-subtitle {
+    font-size: 40px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.about_us-inner-title {
+    font-size: 140px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    position: relative;
+}
+
+.about_us-inner-title::before {
+    content: url(../images/Shape_5.svg);
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: -100px;
+    top: -200px;
+}
+
+.about_us-inner-title::after {
+    content: url(../images/Shape_6.svg);
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    right: -85px;
+    top: 180px;
+}
+
+.about_us-inner-paragraph {
+    max-width: 883px;
+    margin: 0 auto;
+    font-size: 25px;
+    color: #5c604b;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 34px;
+}
+
+.learn_more {}
+
+.learn_more-link {}
+
+.learn_more-link-content {}
+
+.learn_more-two {
+    border: none;
+    background: none;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.learn_more-link {}
+
+
+.learn_more-link-two {
+    background-color: #ffffff;
+    padding: 8px 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #82922f;
+    font-family: 'Fjalla One', sans-serif;
+    transition: ease-in-out 0.5s;
+}
+
+.learn_more-link-two:hover {
+    background-color: #a4bb2f;
+    padding: 8px 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+/* делаю третью секцию */
+
+.our-services {
+    padding: 100px;
+}
+
+.our-services_title {
+    font-size: 140px;
+    color: #8a9932;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.our-services_title::after {
+    content: url(../images/Ellipse_7.svg);
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    z-index: -2;
+    right: 673px;
+}
+
+.container {}
+
+.our-services-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.our-services-inner-box {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.our-services-inner-box_image {}
+
+.our-services-inner-box_text {
+    font-size: 22px;
+    color: #5c604b;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.our-services-inner-box_text-cont {
+    max-width: 500px;
+}
+
+/* Делаю 4 секцию */
+
+.solutions {
+    padding: 100px 60px;
+    background: #8a9932;
+}
+
+.container {}
+
+.solutions_inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.solutions_inner-left {}
+
+.solutions-title {
+    font-size: 140px;
+    -webkit-text-stroke: 2px #eaebe0;
+    color: rgba(0, 0, 0, 0);
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 156px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.solutions-text {
+    font-size: 22px;
+    color: #4c4c4c;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    max-width: 602px;
+    padding-bottom: 40px;
+}
+
+.solutions-button {
+    margin: 0 auto;
+    display: flex;
+    border: none;
+    background: none;
+    position: relative;
+    z-index: 2;
+}
+
+.solutions-button-link {
+    padding: 8px 50px;
+    background: white;
+    color: #8a9932;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    border-radius: 10px;
+    transition: ease-out .5s;
+}
+
+.solutions-button-link:hover {
+    padding: 8px 50px;
+    background: #e6efb4;
+    color: #8a9932;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    border-radius: 10px;
+}
+
+.solutions-button-link-content {}
+
+.solutions_inner-right {}
+
+.solutions_image {
+    margin-top: -51px;
+    max-width: 541px;
+}
+
+/* Делаю пятую секцию */
+
+.recycle {
+    padding: 100px 100px;
+}
+
+.container {}
+
+.recycle_inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.recycle_inner-left {}
+
+.recycle_inner-left-image {
+    max-width: 797px;
+    margin-left: -216px;
+}
+
+.recycle_inner-right {
+    padding-left: 120px;
+}
+
+.recycle_inner-right-title {
+    font-size: 140px;
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 156px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: #8b9a33;
+    position: relative;
+}
+
+.recycle_inner-right-title::after {
+    content: url(../images/спираль\ 1.svg);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: -99px;
+    top: -80px;
+}
+
+.recycle_inner-right-text {
+    font-size: 22px;
+    color: #4c4c4c;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 6px;
+    max-width: 770px;
+    padding-bottom: 40px;
+}
+
+.recycle-bottom {
+    display: flex;
+    border: none;
+    background: none;
+    position: relative;
+    z-index: 2;
+}
+
+.recycle-bottom-link {
+    padding: 8px 50px;
+    background: #8a9932;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    border-radius: 10px;
+    transition: ease-out .6s;
+}
+
+.recycle-bottom-link:hover {
+    background: #d5eb56;
+    color: #8a9932;
+}
+
+.recycle-bottom-link-text {}
+
+/* Делаю шестую секцию */
+
+.sustainable {
+    padding: 100px 100px;
+    background: #8b9a33;
+}
+
+.container {}
+
+.sustainable_inner {
+    display: flex;
+    justify-content: space-around;
+    height: 720px;
+}
+
+.sustainable_inner-left {
+    align-items: start;
+    display: flex;
+}
+
+.sustainable_inner-left-image {}
+
+.sustainable_inner-center {}
+
+.sustainable_inner-center-title {
+    font-size: 140px;
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 156px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 191px;
+}
+
+.sustainable_inner-center-text {
+    font-size: 22px;
+    color: #4c4c4c;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 6px;
+    max-width: 770px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.sustainable_inner-right {
+    align-items: flex-end;
+    display: flex;
+}
+
+.sustainable_inner-right-image {
+    padding-left: 42px;
+}
+
+/* Последняя секция */
+
+.end {
+    padding: 100px 100px;
+}
+
+.container {}
+
+.end_inner {
+    display: flex;
+    justify-content: center;
+}
+
+.end_inner-left {}
+
+.end_inner-left-image {
+    max-width: 680px;
+    margin-top: -89px;
+    margin-left: -100px;
+}
+
+.end_inner-right {
+    padding-top: 94px;
+    padding-left: 76px;
+}
+
+.end_inner-right-box {
+    padding-bottom: 100px;
+}
+
+.end_inner-right-box-title {
+    font-size: 70px;
+    color: #8b9b34;
+    font-family: 'Fjalla One', sans-serif;
+    padding-bottom: 5px;
+}
+
+.end_inner-right-box-text {
+    max-width: 545px;
+    font-size: 22px;
+    color: #4c4c4c;
+    font-family: 'Roboto', sans-serif;
+}
+
+.end_inner-right-box-text-two {
+    max-width: 545px;
+    font-size: 22px;
+    color: #4c4c4c;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.end_inner-right-box-text-two::after {
+    content: url(../images/спираль\ 4.svg);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 19px;
+    right: -158px;
+}
+
+/* Делаю footer */
+
+.footer {
+    padding: 160px 0;
+}
+
+.container {}
+
+.footer_inner {}
+
+.footer_inner-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_inner-top-title {
+    font-size: 30px;
+    color: #8b9b34;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.footer_inner-top-title-one{
+    font-size: 30px;
+    color: #8b9b34;
+    font-family: 'Fjalla One', sans-serif;
+    margin-right: 42px;
+}
+
+
+
+
+
+.line-footer {
+    width: 100%;
+}
+
+.footer_inner-middle {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 102px;
+    padding-left: 117px;
+    padding-right: 71px;
+}
+
+.footer_inner-middle-box {
+    display: block;
+}
+
+.footer_inner-middle-box:nth-child(1){
+    padding-left: 6px;
+}
+
+.footer_inner-middle-box:nth-child(2){
+    padding-left: 76px;
+}
+
+.footer_inner-middle-box:nth-child(3){
+    padding-right: 40px;
+}
+
+.footer_inner-middle-box:nth-child(4){
+    padding-left: 44px;
+}
+
+
+.footer_inner-middle-box-link {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.footer_inner-middle-box-link-content {
+    font-size: 18px;
+    color: #8b9b34;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1px;
+    margin-top: 12px;
+    transition: ease-out .5s;
+    border-bottom: 3px solid transparent;
+}
+
+.footer_inner-middle-box-link-content{
+
+}
+
+
+
+.footer_inner-middle-box-link-content:hover {
+    font-size: 18px;
+    color: #8b9b34;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1px;
+    margin-top: 12px;
+    border-bottom: 3px solid #8b9b34;
+}
+
+.footer_inner-end {
+    padding-top: 60px;
+    padding-left: 122px;
+}
+
+.footer_inner-end-text {
+    font-size: 22px;
+    color: #8b9b34;
+    font-family: 'Fjalla One', sans-serif;
+    position: relative;
+    z-index: 2;
+}
